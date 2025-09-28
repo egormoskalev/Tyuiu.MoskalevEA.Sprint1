@@ -1,0 +1,13 @@
+﻿using tyuiu.cources.programming.interfaces.Sprint1;
+
+namespace Tyuiu.MoskalevEA.Sprint1.Task2.V3.Lib
+{
+    public class DataService : ISprint1Task2V3
+    {
+        public int ConvertHourToMin(int value)
+        {
+            int minutes;
+            return minutes = value * 60;
+        }
+    }
+}
