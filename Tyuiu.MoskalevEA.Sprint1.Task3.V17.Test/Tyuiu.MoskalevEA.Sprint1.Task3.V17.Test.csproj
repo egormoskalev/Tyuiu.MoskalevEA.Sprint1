@@ -23,17 +23,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.MoskalevEA.Sprint1.Task1.V3.Lib\Tyuiu.MoskalevEA.Sprint1.Task2.V3.Lib.csproj" />
-    <ProjectReference Include="..\Tyuiu.MoskalevEA.Sprint1.Task2.V3\Tyuiu.MoskalevEA.Sprint1.Task2.V3.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="tyuiu.cources.programming.interfaces">
-      <HintPath>..\tyuiu.cources.programming.interfaces-main\tyuiu.cources.programming.interfaces.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
-  <ItemGroup>
     <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
   </ItemGroup>
 
