@@ -22,8 +22,7 @@ namespace Tyuiu.MoskalevEA.Sprint1.Task2.V3
             Console.WriteLine("**************************************************************************");
 
             Console.WriteLine(ds.ConvertHourToMin(x));
-
-
+           
             Console.ReadLine();
         }
     }
