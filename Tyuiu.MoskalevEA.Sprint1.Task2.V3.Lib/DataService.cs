@@ -9,11 +9,6 @@ namespace Tyuiu.MoskalevEA.Sprint1.Task2.V3.Lib
             int minutes;
             return minutes = value * 60;
         }
-
-        public int ConvertHourToMin(double x)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
 

@@ -33,7 +33,7 @@ namespace Tyuiu.MoskalevEA.Sprint1.Task2.V3
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                             *");
             Console.WriteLine("**************************************************************************");
 
-            Console.WriteLine(ds.ConvertHourToMin(x));
+            Console.WriteLine(ds.ConvertHourToMin((int)x));
            
             Console.ReadLine();
         }
