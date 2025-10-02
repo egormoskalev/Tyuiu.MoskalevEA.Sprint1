@@ -1,4 +1,6 @@
-﻿namespace Tyuiu.MoskalevEA.Sprint1.Task2.V3.Test
+﻿using Tyuiu.MoskalevEA.Sprint1.Task2.V3.Lib;
+
+namespace Tyuiu.MoskalevEA.Sprint1.Task2.V3.Test
 {
     [TestClass]
     public sealed class DataServiceTest

@@ -15,13 +15,13 @@ namespace Tyuiu.MoskalevEA.Sprint1.Task3.V17
             int x;
 
             Console.WriteLine("Введите значение X:");
-            x = Convert.ToInt32(Console.ReadLine());
+            x = (int)Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                             *");
             Console.WriteLine("**************************************************************************");
 
-            Console.WriteLine(ds.ConvertHourToMin(x));
+            Console.WriteLine(ds.ZeroCheck(x) ? "есть ноль" : "нет нуля");
 
             Console.ReadLine();
         }
