@@ -1,4 +1,4 @@
-﻿using Tyuiu.MoskalevEA.Sprint1.Task2.V3.Lib;
+﻿using Tyuiu.MoskalevEA.Sprint1.Review1.V16.Lib;
 
 namespace Tyuiu.MoskalevEA.Sprint1.Task2.V3
 {
@@ -20,11 +20,6 @@ namespace Tyuiu.MoskalevEA.Sprint1.Task2.V3
             Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные,*");
             Console.WriteLine("* выполняет указанные расчёты и печатает результат на экране.            *");
             Console.WriteLine("*                                                                        *");
-            Console.WriteLine("*Формулировка задания: Задано количество часов. Перевести время в минуты.*");
-            Console.WriteLine("*                                                                        *");
-            Console.WriteLine("*Что пользователь вводит ? Время в часах(целое число)                    *");
-            Console.WriteLine("*                                                                        *");
-            Console.WriteLine("*Что программа печатает на экране? Время в минутах (целое число)         *");
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                       *");
             Console.WriteLine("**************************************************************************");
@@ -39,9 +34,8 @@ namespace Tyuiu.MoskalevEA.Sprint1.Task2.V3
             Console.WriteLine("**************************************************************************");
 
             Console.WriteLine(ds.ConvertHourToMin((int)x));
-           
+
             Console.ReadLine();
         }
     }
-}
 
