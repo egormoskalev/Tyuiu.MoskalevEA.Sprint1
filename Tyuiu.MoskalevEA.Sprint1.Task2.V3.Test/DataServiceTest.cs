@@ -6,7 +6,7 @@ namespace Tyuiu.MoskalevEA.Sprint1.Task2.V3.Test
     public sealed class DataServiceTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void ValidExpression()
         {
             DataService ds = new DataService();
             int x = 10;

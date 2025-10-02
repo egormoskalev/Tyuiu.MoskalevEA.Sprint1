@@ -32,13 +32,13 @@ namespace Tyuiu.MoskalevEA.Sprint1.Task2.V3
             double x;
 
             Console.WriteLine("Введите значение X:");
-            x = Convert.ToDouble(Console.ReadLine());
+            x = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                             *");
             Console.WriteLine("**************************************************************************");
 
-            Console.WriteLine(ds.ConvertHourToMin((int)x));
+            Console.WriteLine("Минут в часах" + ds.ConvertHourToMin(x));
            
             Console.ReadLine();
         }
