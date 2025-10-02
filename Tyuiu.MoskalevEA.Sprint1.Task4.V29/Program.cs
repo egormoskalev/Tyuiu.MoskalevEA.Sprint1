@@ -1,6 +1,6 @@
-﻿using Tyuiu.MoskalevEA.Sprint1.Task3.V17.Lib;
+﻿using Tyuiu.MoskalevEA.Sprint1.Task4.V29.Lib;
 
-namespace Tyuiu.MoskalevEA.Sprint1.Task3.V17
+namespace Tyuiu.MoskalevEA.Sprint1.Task4.V29
 {
     class Programm
     {
@@ -12,19 +12,21 @@ namespace Tyuiu.MoskalevEA.Sprint1.Task3.V17
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                       *"); ;
             Console.WriteLine("**************************************************************************");
 
-            int x;
+            double x, y;
 
             Console.WriteLine("Введите значение X:");
-            x = (int)Convert.ToDouble(Console.ReadLine());
+            x = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Введите значение Y:");
+            y = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                             *");
             Console.WriteLine("**************************************************************************");
 
-            Console.WriteLine(ds.ZeroCheck(x) ? "есть ноль" : "нет нуля");
+            Console.WriteLine(ds.Calculate(x, y));
 
             Console.ReadLine();
         }
     }
 }
-
