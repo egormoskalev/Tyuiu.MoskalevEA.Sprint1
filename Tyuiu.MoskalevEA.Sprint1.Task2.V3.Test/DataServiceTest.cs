@@ -9,9 +9,9 @@ namespace Tyuiu.MoskalevEA.Sprint1.Task2.V3.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            int x = 10;
+            int x = 2;
             var res = ds.ConvertHourToMin(x);
-            Assert.AreEqual(600, res);
+            Assert.AreEqual(120, res);
         }
     }
 }
