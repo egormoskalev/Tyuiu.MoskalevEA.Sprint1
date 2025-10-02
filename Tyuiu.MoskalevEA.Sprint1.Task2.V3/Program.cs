@@ -2,12 +2,11 @@
 
 namespace Tyuiu.MoskalevEA.Sprint1.Task2.V3
 {
-  
     class Program
     {
         static void Main(string[] args)
         {
-            DataService ds = new DataService(); ;
+            DataService ds = new DataService();
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
